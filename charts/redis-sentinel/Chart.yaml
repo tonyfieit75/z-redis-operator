@@ -1,0 +1,19 @@
+apiVersion: v2
+name: redis-sentinel
+description: Provides easy redis setup definitions for Kubernetes services, and deployment.
+version: 0.16.3
+appVersion: "0.16.3"
+home: https://github.com/tonyfieit75/z-redis-operator
+sources:
+  - https://github.com/tonyfieit75/z-redis-operator
+maintainers:
+  - name: Tony
+keywords:
+- operator
+- redis
+- opstree
+- kubernetes
+- openshift
+- redis-exporter
+icon: https://github.com/tonyfieit75/z-redis-operator/raw/master/static/redis-operator-logo.svg
+type: application

@@ -1,0 +1,12 @@
+apiVersion: redis.redis.opstreelabs.in/v1beta1
+kind: Redis
+metadata:
+  name: redis
+  namespace: redis-operator-system
+spec:
+  kubernetesConfig:
+    image: quay.io/tonyfieit75/redis:s390x-1  # Ensure this image is available for s390x
+    imagePullPolicy: IfNotPresent
+  mode: Standalone
+  size: 1
+

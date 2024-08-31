@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  redis-replication:
+  - apiVersion: v2
+    appVersion: 0.16.2
+    created: "2024-08-31T03:48:14.152702966Z"
+    description: Provides easy redis setup definitions for Kubernetes services, and
+      deployment.
+    digest: b1ee9dab94c4f8259cd0d1d259e61bc8bda19606fe60bf14e971073ec77aa7d0
+    home: https://github.com/tonyfieit75/z-redis-operator
+    icon: https://github.com/tonyfieit75/z-redis-operator/raw/master/static/redis-operator-logo.svg
+    keywords:
+    - operator
+    - redis
+    - opstree
+    - kubernetes
+    - openshift
+    - redis-exporter
+    maintainers:
+    - name: Tony
+    name: redis-replication
+    sources:
+    - https://github.com/tonyfieit75/z-redis-operator
+    type: application
+    urls:
+    - https://tonyfieit75.github.io/helm-charts/redis-replication-0.16.2.tgz
+    version: 0.16.2
+generated: "2024-08-31T03:48:14.151818029Z"
