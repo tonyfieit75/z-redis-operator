@@ -23,7 +23,7 @@ Here the features which are supported by this operator:-
 - Password and password-less setup of redis
 - TLS support for additional security layer
 - Ipv4 and Ipv6 support for redis setup
-- Detailed monitoring grafana dashboard
+
 
 ## Getting Started
 
