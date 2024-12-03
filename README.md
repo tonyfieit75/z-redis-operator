@@ -1,4 +1,5 @@
 
+## Redis Operator for IBM LinuxOne on Red Hat OpenShift
 
 This operator only supports versions of redis `=>6`.
 
@@ -25,8 +26,6 @@ Here the features which are supported by this operator:-
 - Detailed monitoring grafana dashboard
 
 ## Getting Started
-
-If you want to deploy redis-operator from scratch to a local Minikube cluster, begin with the [Getting started](https://ohttps://ot-container-kit.github.io/redis-operator/#/quickstart/quickstart) document. It will guide your through the setup step-by-step.
 
 The configuration of Redis setup should be described in [CRD definitions](config/crd/bases). All the examples related to redis standalone and cluster setup can be found inside [example](./example) folder.
 
