@@ -72,7 +72,7 @@ Creating redis cluster, standalone, replication and sentinel setup.
 ```shell
 # Create redis cluster setup
 $ helm upgrade redis-cluster z-helm/redis-cluster \
-  --set redisCluster.clusterSize=3 --install \ 
+  --set redisCluster.clusterSize=4 --install \ 
   --namespace z-operators
 ```
 
